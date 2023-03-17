@@ -43,7 +43,7 @@ body {
 	font-size: 16px;
 	color: #A4B4C3;
 	font-style: normal;
-	background-color: #030B15;
+	background-color: #000000;
 	line-height: 1.75;
 }
 body.white-background {
@@ -878,7 +878,7 @@ label {
 	bottom: 0;
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(0.23deg, #030B15 5.68%, rgba(3, 11, 21, 0.42) 81.9%);
+	background: linear-gradient(0.23deg, #000000 5.68%, rgb(0 0 0 / 42%) 81.9%) !important;
 	z-index: -1;
 }
 .banner-shape-wrap img {
@@ -905,7 +905,7 @@ label {
 	animation: alltuchtopdown 3s infinite linear;
 }
 .banner-content img {
-	margin-bottom: 25px;
+	margin-bottom: 5px;
 }
 .banner-content .title {
 	font-size: 55px;
